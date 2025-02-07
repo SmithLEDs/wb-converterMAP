@@ -445,5 +445,5 @@ function deviceExists( topic ) {
 exports.createElectricalChannel  = function( title , name , targetChannels ) {
     setTimeout( function() {
         createElectricalChannel ( title , name , targetChannels );
-    }, 1000 );
+    }, 10000 );
 } 
