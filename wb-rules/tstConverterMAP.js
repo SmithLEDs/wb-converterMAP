@@ -1,5 +1,30 @@
 var electricalChannel = require('moduleConverterMAP');  // Подключаем наш модуль
 
+// Создаем объект для однофазной нагрузки MAP3E
+var target1Phase = {
+    coefficient: 1,
+    phase: "L1"
+};
+
+// Создаем объект для трёхфазной нагрузки MAP3E
+var target1Phase = {
+    coefficient: 1
+};
+
+// Создаем объект для однофазной нагрузки MAP12E
+var target1Phase = {
+    coefficient: 1,
+    channel: "Ch1",
+    phase: "L1"
+};
+
+// Создаем объект для трёхфазной нагрузки MAP12E
+var target1Phase = {
+    coefficient: 1,
+    channel: "Ch1"
+};
+
+
 // Создаем объект для однофазной нагрузки
 var target1Phase = {
     coefficient: 1,
