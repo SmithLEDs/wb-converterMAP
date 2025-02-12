@@ -159,3 +159,4 @@ electricalChannel.createElectricalChannel('Ввод №1' , 'QF1_vvod1' , target
 ## Версии движка правил, на которых проверялась работоспособность:
 
 - `v2.23.1-1-ge77bad7`
+- `v2.25.0-2-g105d68c`
